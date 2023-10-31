@@ -6,6 +6,7 @@ import Landing from "./pages/Landing";
 import { motion } from "framer-motion";
 import LineGradient from './components/LineGradient';
 import About from './pages/About';
+import Category from './pages/Category';
 
 
 function App() {
@@ -52,6 +53,11 @@ function App() {
         <About />
        
       </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto ">
+        <Category />
+      </div>
+      <LineGradient />
 
    </div>
    
