@@ -9,6 +9,7 @@ import About from './pages/About';
 import Category from './pages/Category';
 import PopulerItem from './pages/PopulerItem';
 import Testimonials from './pages/Testimonials';
+import Footer from './pages/Footer';
 
 
 function App() {
@@ -68,6 +69,9 @@ function App() {
         <Testimonials />
       </div>
       <LineGradient />
+      <div className="w-5/6 mx-auto ">
+        <Footer />
+      </div>
 
    </div>
    
