@@ -12,6 +12,7 @@ import Testimonials from './pages/Testimonials';
 import Footer from './pages/Footer';
 import Contact from './pages/Contact';
 import Featured from './pages/Featured';
+import Premium from './pages/Premium';
 
 
 function App() {
@@ -69,6 +70,10 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto ">
         <Featured />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto ">
+        <Premium />
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto ">

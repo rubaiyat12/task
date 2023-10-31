@@ -18,12 +18,10 @@ const Featured = () => {
                 <div className="md:ml-10">
                     <p>Jun 20,2023</p>
                     <p className="uppecase">Where can I get One</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Mollitia voluptates omnis, necessitatibus officiis cumque aspernatur perspiciatis
-                         distinctio est adipisci quos veritatis minima corrupti. Ullam eligendi doloribus
-                          sequi obcaecati placeat repellendus odio reiciendis, facilis beatae accusamus 
-                          minima ea omnis excepturi quasi,
-                         amet natus distinctio magnam qui, assumenda possimus ducimus cum. Quae?</p>
+                    <p>Our cake featured item is the epitome of indulgence, boasting an exquisite
+                         blend of flavors and artful presentation. Each creation is meticulously
+                          handcrafted by our expert bakers, making it a must-try for anyone with a sweet tooth.
+                         Treat yourself to a slice of pure delight with our cake featured item today.</p>
                          <button className="btn btn-outline border-0 border-b-4 mt-4">Order Now</button>
 
                 </div>
