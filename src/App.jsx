@@ -11,6 +11,7 @@ import PopulerItem from './pages/PopulerItem';
 import Testimonials from './pages/Testimonials';
 import Footer from './pages/Footer';
 import Contact from './pages/Contact';
+import Featured from './pages/Featured';
 
 
 function App() {
@@ -64,6 +65,10 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto ">
         <PopulerItem />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto ">
+        <Featured />
       </div>
       <LineGradient />
       <div className="w-5/6 mx-auto ">
