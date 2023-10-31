@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import LineGradient from './components/LineGradient';
 import About from './pages/About';
 import Category from './pages/Category';
+import PopulerItem from './pages/PopulerItem';
 
 
 function App() {
@@ -56,6 +57,10 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto ">
         <Category />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto ">
+        <PopulerItem />
       </div>
       <LineGradient />
 
