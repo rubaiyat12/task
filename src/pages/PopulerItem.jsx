@@ -14,9 +14,9 @@ const PopulerItem = () => {
     
     },[])
     return (
-        <section id="Popular items">
+        <section id="popular" className="pt-32 pb-16" >
             <SectionTitle
-            subHeading={"Populer Items"}
+            subHeading={"Popular Items"}
             heading={"From our Item"}
             ></SectionTitle>
             <div className="grid md:grid-cols-2 gap-4">
