@@ -1,8 +1,29 @@
-# React + Vite
+## TASK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Live Preview [Preview](https://cake-zone-task.netlify.app/)
 
-Currently, two official plugins are available:
+### Technologies Used 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JavaScript | React.js | CSS | Tailwind CSS | 
+   
+
+### Functionality
+
+🠪 I've developed a Cake Zone landing page using ReactJS. Here are some key features to highlight
+
+🠪 Header: navigation bar and a carosel part.
+
+🠪 About: In this section provide the details about cake-zone.
+
+🠪 Category: In this section provide a swipper carosel with some category of cake.
+
+🠪 Popular: In this section provide some Popular cake item, price and images.
+
+🠪 Feature: It has a Feature section.
+
+🠪 Premium: Here provide premium item which is very special.
+
+🠪 Testimonials: In this section shows some reviews of our customer
+
+🠪 Contact: In this section anyone can send any message or query to us.
+
