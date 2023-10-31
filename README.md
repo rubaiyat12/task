@@ -1,10 +1,12 @@
-## TASK
+## CAKE ZONE TASK
+Welcome to the CAKE ZONE website repository. This website is built using React JS with various libraries and tools to provide a seamless user experience.
 
-### Live Preview [Preview](https://cake-zone-task.netlify.app/)
+### Live Link
+You can access the live version of the website at https://cake-zone-task.netlify.app/
 
 ### Technologies Used 
 
-JavaScript | React.js | CSS | Tailwind CSS | 
+JavaScript | React.js | CSS | Tailwind CSS | React Awsome Component
    
 
 ### Functionality
