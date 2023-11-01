@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} z-40 w-full bg-opacity-40  bg-black   fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-full px-20">
-        <h4 className=" text-3xl font-bold">CAKE ZONE</h4>
+        <h4 className=" text-3xl font-playfair font-bold">CAKE ZONE</h4>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
