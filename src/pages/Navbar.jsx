@@ -26,13 +26,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   const navbarBackground = isTopOfPage ? "" : "bg-sla";
 
   return (
-    <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
-      <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold">Cake Zone</h4>
+    <nav className={`${navbarBackground} z-40 w-full bg-opacity-40  bg-black   fixed top-0 py-6`}>
+      <div className="flex items-center justify-between mx-auto w-full px-20">
+        <h4 className=" text-3xl font-bold">CAKE ZONE</h4>
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
-          <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
+          <div className="flex justify-between gap-12  text-sm font-semibold">
             <Link
               page="Home"
               selectedPage={selectedPage}

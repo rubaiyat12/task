@@ -1,3 +1,4 @@
+import LineGradient from "../components/LineGradient";
 import SocialMediaIcons from "../components/SocialMediaicons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
@@ -7,12 +8,12 @@ const About = () => {
     return (
         <section
       id="about"
-      className=" md:items-center gap-16 md:h-full py-10"
+      className=" md:items-center gap-16 md:h-full py-4 mb-10"
     >
     
 
       {/* MAIN TEXT */}
-      <div className="  mt-12 md:mt-32  md:items-center">
+      <div className="  mt-12 md:mt-32 justify-center md:items-center">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -24,8 +25,9 @@ const About = () => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-4xl font-playfair justify-center z-10 text-center ">
+          <p className="text-4xl  justify-center z-10 text-center ">
             CAKE ZONE {""} </p>
+          
             {/* <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[30px] before:-top-[50px] before:z-[-1]"
@@ -34,10 +36,11 @@ const About = () => {
             {/* </span> */}
          
 
-          <p className="mt-10 mb-7 text-sm text-center">
+          <p className="mt-10 mb-7 px-2 text-sm text-center">
           Indulge your sweet tooth and explore a delectable world of cakes on our website,
-           where you can discover mouthwatering recipes and order custom-made confections for any occasion
+           where you can discover <br /> mouthwatering recipes and order  custom-made confections for any occasion
           </p>
+          
         </motion.div>
 
         {/* CALL TO ACTIONS */}
@@ -65,7 +68,7 @@ const About = () => {
             onClick={() => setSelectedPage("contact")}
             href="#contact"
           >
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
+            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 ">
               Let's talk.
             </div>
           </AnchorLink>

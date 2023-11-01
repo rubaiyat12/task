@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="contact py-48">
+    <section id="contact" className="contact py-20 mb-10">
       {/* HEADINGS */}
       <motion.div
         initial="hidden"
@@ -30,15 +30,13 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
+        className="flex justify-center w-full"
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT US</span> TO GET STARTED
+          <p className="font-semibold text-4xl mb-10">
+            <span className="">CONTACT US</span> TO GET STARTED
           </p>
-          <div className="flex md:justify-end my-5">
-            <LineGradient width="w-1/2" />
-          </div>
+          
         </div>
       </motion.div>
 
@@ -76,7 +74,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full  font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME"
               {...register("name", {
@@ -92,7 +90,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full  font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -108,10 +106,10 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full  font-semibold placeholder-opaque-black p-3 mt-5"
               name="message"
               placeholder="MESSAGE"
-              rows="4"
+              rows="8"
               cols="50"
               {...register("message", {
                 required: true,
@@ -128,7 +126,8 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="p-5 bg-gradient-rainblue text-deep-blue font-semibold  mt-5 rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500"
               type="submit"
             >
               SEND US A MESSAGE

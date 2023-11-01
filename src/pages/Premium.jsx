@@ -3,13 +3,14 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import PremiumCake from '../assets/home/premium.png';
+import LineGradient from "../components/LineGradient";
 
 const Premium = ({ setSelectedPage }) => {
     const isAboveLarge = useMediaQuery("(min-width: 1060px)");
     return (
       <section
         id="premium"
-        className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
+        className="md:flex md:justify-between md:items-center gap-16 md:h-full py-6 mb-20 pb-4 mt-10"
       >
       
   
@@ -25,9 +26,12 @@ const Premium = ({ setSelectedPage }) => {
               hidden: { opacity: 0, x: -50 },
               visible: { opacity: 1, x: 0 },
             }}
+            className=" justify-center"
           >
-            <p className="text-4xl font-playfair z-10 text-center md:text-start">
-              Premium Item {""} </p>
+             <p className=" font-semibold text-4xl text-center md:text-start">
+            <span className="">PREMIUM ITEM</span> 
+          </p>
+              
               {/* <span
                 className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
                 before:absolute before:-left-[30px] before:-top-[50px] before:z-[-1]"

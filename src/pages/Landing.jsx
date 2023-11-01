@@ -19,11 +19,11 @@ const Landing = () => {
     >
         <Carousel>
                 <div>
-                    <img src={img3} />
+                    <img src={img4} />
                     
                 </div>
                 <div>
-                    <img src={img4} />
+                    <img src={img3} />
                     
                 </div>
                 <div>

@@ -3,10 +3,10 @@
 const Menuitem = ({item}) => {
     const {name, image, price, recipe} = item;
     return (
-        <div className="flex space-x-4">
+        <div className="flex space-x-6">
             <img  style={{borderRadius:'40%'}} className="w-[110px] h-[90px]" src={image} alt="" />
             <div>
-                <h3 className="uppercase ">{name}----------</h3>
+                <h3 className="uppercase font-bold">{name}</h3>
                 <p>{recipe}</p>
 
             </div>

@@ -14,12 +14,12 @@ const PopulerItem = () => {
     
     },[])
     return (
-        <section id="popular" className="pt-32 pb-16" >
+        <section id="popular" className="mt-20 mb-20" >
             <SectionTitle
             subHeading={"Popular Items"}
             heading={"From our Item"}
             ></SectionTitle>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 gap-4 mb-10">
                 {
                     menu.map(item=><Menuitem
                     key={item._id}

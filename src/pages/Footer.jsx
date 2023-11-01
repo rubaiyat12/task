@@ -5,20 +5,22 @@ import SocialMediaIcons from "../components/SocialMediaicons";
 
 const Footer = () => {
   return (
-    <footer className="h-64 bg-red mt-40 pt-10">
-      <div className="w-10/12 mx-auto">
+    <section className="bg-opacity-40  bg-black w-full">
+    <footer className="h-30 z-40 w-full px-20 py-10  ">
+      <div className=" mx-auto ">
         <SocialMediaIcons />
         
         <div className="md:flex justify-center md:justify-between text-center ">
-          <p className="font-playfair font-semibold text-2xl text-yellow">
+          <p className="font-semibold text-2xl ">
             RUBAIYAT RAZIN 
           </p>
-          <p className="font-playfair text-md text-yellow">
+          <p className="text-md ">
             ©2022 RAHA. All Rights Reserved.
           </p>
         </div>
       </div>
     </footer>
+    </section>
   );
 };
 
